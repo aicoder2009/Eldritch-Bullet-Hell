@@ -1,0 +1,22 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Eldritch Bullet Hell"
+config/description="You are the last survivor of the human race. Earth is now a desolate planet but some humans were able to develop a powerful superweapon. You were able to locate the superweapon and learned it was an artificial power suit which can eliminate any lifeform regardless if it was mortal or immortal. The gods wiped the human race, so it’s fair game if we do the same right?"
+config/version="1.0"
+config/features=PackedStringArray("4.2", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
